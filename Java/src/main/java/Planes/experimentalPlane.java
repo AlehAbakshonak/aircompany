@@ -36,7 +36,8 @@ public class experimentalPlane extends Plane {
    public String toString() {
       return super.toString().replace("}",
             "experimentalPlane{" +
-            "model='" + this.getModel() + '\'' +
+            "type=" + type +
+            ", classificationLevel=" + classificationLevel +
             '}');
    }
 }
